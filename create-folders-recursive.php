@@ -37,6 +37,7 @@
 /**
  *CALL OF METHOD expandDirectories with the path and a array with name of folders for create
  *
+ * remove zero as the last parameter if you want it to operate in the current directory and not in the next level
  * $this->expandDirectories(public_path() . "/test-recursive" , ['img-carta', 'img-menu', 'img-pizarra'], 0);
  *
  *
